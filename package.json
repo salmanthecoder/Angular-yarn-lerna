@@ -1,12 +1,12 @@
 {
   "name": "Angular-yarn-lerna",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this application is for setting lerna , angular and yarn workspace",
   "main": "index.js",
   "repository": "https://github.com/salmanthecoder/Angular-yarn-lerna.git",
   "author": "“salmanthecoder” <rahilsalman@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -20,8 +20,8 @@
     "publish": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^3.22.1",
     "@types/node": "^8.0.30",
+    "lerna": "^3.22.1",
     "tslint": "^4.5.1",
     "typescript": "^2.2.1"
   },
